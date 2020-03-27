@@ -1,1 +1,5 @@
-FROM node:9.3.0-alpine
+FROM node:12.12.0-alpine
+
+WORKDIR /app
+
+ADD . /app
